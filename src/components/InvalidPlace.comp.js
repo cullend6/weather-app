@@ -1,12 +1,11 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect } from 'react'
 
 export default function InvalidPlace() {
-
     useEffect(() => {
         setTimeout(() => {
             window.location.reload();
         }, 2500);
-    })
+    });
 
     return (
         <div className='InvalidContainer'>
